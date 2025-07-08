@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Jujo Arias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Jujo Arias</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="proyectos.html">Projectos</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="contact-form">
+            <h2>Hablemos de tu proyecto</h2>
+            <p>Si estás buscando un músico de sesión, un productor para tu próximo sencillo o simplemente quieres colaborar, no dudes en escribirme.</p>
+            <form action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Tipo de servicio:</label>
+                <select id="service" name="service">
+                    <option value="produccion">Producción musical</option>
+                    <option value="musico">Músico de sesión</option>
+                    <option value="composicion">Composición</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="message">Tu mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jujo Arias. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
